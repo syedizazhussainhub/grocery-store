@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRESH</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+   
+</head>
+<body style="background-color:#E5EBE7;">
+    <div class="header">
+        <nav>
+            <span class="logo">LOGO</span>
+            <div class="links">
+                <a href="">Home</a>
+                <a href="">Catalog</a>
+                <a href="">Shop</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="search-btns">
+                
+             <i class="fa-solid fa-magnifying-glass"></i> <input  type="text"  placeholder="Search..."  >
+             
+              
+                <button class="shoping-btn"><i class="fa-solid fa-cart-shopping" style="color: white;"></i></button>
+                <button class="signup-btn" >Signup</button>
+
+            </div>
+        </nav>
+
+        
+            <div class="hero" >
+                <div class="hero-text">
+
+                  <h1>Make healthy <br>
+                    life With <span style="color: yellow;">fresh</span><br>
+                    grocery
+                 </h1>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci 
+                    deleniti optio consequatur nobis, id, pariatur, a fuga haru <br> ea delectus at ullam aspernatur
+                     et iste mollitia. Commodi veritatis architecto dicta.</p>
+
+                </div>
+                 
+
+
+
+
+
+
+                  <div class="hero-img">
+                   <img src="1-Picsart-BackgroundRemover.jpg" alt="">
+                </div>
+
+            </div>
+        
+    </div>
+
+    
+
+
+       <div class="catagories-text">
+             <h1>Top Catagories</h1>
+        </div>
+
+
+    <div class="catagories">
+  <div class="cards">
+    <img class="imges1" src="milk.png" alt="milk">
+    <h4 class="h4-cards">Milk</h4>
+    <p class="items-p">(240 items)</p>
+  </div>
+
+  <div class="cards">
+    <img class="imges1" src="OIP.jfif" alt="vegetables">
+    <h4 class="h4-cards">Vegetables</h4>
+    <p class="items-p">(180 items)</p>
+  </div>
+
+  <div class="cards">
+    <img class="imges1" src="Bread.jfif" alt="bread">
+    <h4 class="h4-cards">Bread</h4>
+    <p class="items-p">(120 items)</p>
+  </div>
+
+  <div class="cards">
+    <img class="imges1" src="rices.png" alt="rice">
+    <h4 class="h4-cards">Rice</h4>
+    <p class="items-p">(200 items)</p>
+  </div>
+</div>
+
+
+
+    <div class="showcase">
+        <div class="veg-show">
+            <img class="veg-pic" src="veg.jpg" alt="veg pic">
+
+        </div>
+        <div class="textshow">
+            <h4 class="h5-textshow">ShowCase</h4>
+            <h3 class="h3-textshow">Best Quality grocery <br>Just for You.</h3>
+            <p class="p-main">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Doloremque in sapiente commodi consectetur cupiditate
+                  recusandae dolorem! Esse, minima nesciunt assumenda sed
+                   dolor quae odio facilis
+                 .</p>
+                 <p class="p-tick"><i class="fa-solid fa-square-check"></i> Best Service Then Others</p>
+                  <p class="p-tick"><i class="fa-solid fa-square-check"></i>Use Experienced Staff</p>
+                   <p class="p-tick"><i class="fa-solid fa-square-check"></i>Userfriendly app</p>       
+                </div>
+
+    </div>
+
+      
+
+    <div class="Services">
+        <div class="service-text">
+            <h4 class="text-feature">Feature</h4>
+            <h1 class="text-whyshould">Why Should you use <br>Our Service?</h1>
+            <p class="Service-lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            <p class="p-i"><i class="fa-solid fa-truck"></i> We provide the fastest Services</p>
+            <p class="p-i"><i class="fa-solid fa-file-invoice"></i> No additional fees for orders</p>
+            <p class="p-i"><i class="fa-solid fa-truck-ramp-box"></i> Fast and reliable delivery</p>
+        </div>
+        <div class="shippic">
+            <img class="shefimg" src="chef--pic.png" alt="chef pic">
+        </div>
+        
+    </div>
+    
+
+
+
+
+
+   <div class="textnslider">
+    <div class="textforslider">
+        <h4>Our Items</h4>
+        <h1>Always healthy grocery <br>
+        in Our Grocery</h1>
+        
+    </div>
+    <div class="arrow-button">
+            <button class="arrow left" onclick="slideLeft()"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="arrow right" onclick="slideRight()"><i class="fa-solid fa-arrow-right"></i></button>
+            </div> 
+            </div>
+    <div class="cardsslider" id="slider">
+    <div class="card">
+      <div class="img-container">
+        <img src="tomato.jpg" alt="Tomato">
+        <span class="heart" onclick="toggleFavorite(this)">&#10084;</span>
+      </div>
+      <div class="info">
+        <h3>Tomato</h3>
+        <div class="details">
+          <span><i class="fa-thin fa-star"></i> 4.5</span><span class="divider">|</span><span>2 km</span>
+        </div>
+        <p class="price">$2.50 / kg</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-container">
+        <img src="tomato.jpg" alt="Carrot">
+        <span class="heart" onclick="toggleFavorite(this)">&#10084;</span>
+      </div>
+      <div class="info">
+        <h3>Carrot</h3>
+        <div class="details">
+          <span><i class="fa-thin fa-star"></i> 4.7</span><span class="divider">|</span><span>3 km</span>
+        </div>
+        <p class="price">$1.80 / kg</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-container">
+        <img src="tomato.jpg" alt="Broccoli">
+        <span class="heart" onclick="toggleFavorite(this)">&#10084;</span>
+      </div>
+      <div class="info">
+        <h3>Broccoli</h3>
+        <div class="details">
+          <span><i class="fa-thin fa-star"></i> 4.6</span><span class="divider">|</span><span>1.5 km</span>
+        </div>
+        <p class="price">$3.00 / kg</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-container">
+        <img src="tomato.jpg" alt="Carrot">
+        <span class="heart" onclick="toggleFavorite(this)">&#10084;</span>
+      </div>
+      <div class="info">
+        <h3>Carrot</h3>
+        <div class="details">
+          <span><i class="fa-thin fa-star"></i> 4.7</span><span class="divider">|</span><span>3 km</span>
+        </div>
+        <p class="price">$1.80 / kg</p>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="img-container">
+        <img src="tomato.jpg" alt="Carrot">
+        <span class="heart" onclick="toggleFavorite(this)">&#10084;</span>
+      </div>
+      <div class="info">
+        <h3>Carrot</h3>
+        <div class="details">
+          <span><i class="fa-thin fa-star"></i> 4.7</span><span class="divider">|</span><span>3 km</span>
+        </div>
+        <p class="price">$1.80 / kg</p>
+      </div>
+    </div>
+
+
+
+
+    <div class="card">
+      <div class="img-container">
+        <img src="tomato.jpg" alt="Carrot">
+        <span class="heart" onclick="toggleFavorite(this)">&#10084;</span>
+      </div>
+      <div class="info">
+        <h3>Carrot</h3>
+        <div class="details">
+          <span><i class="fa-thin fa-star"></i> 4.7</span><span class="divider">|</span><span>3 km</span>
+        </div>
+        <p class="price">$1.80 / kg</p>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="img-container">
+        <img src="tomato.jpg" alt="Carrot">
+        <span class="heart" onclick="toggleFavorite(this)">&#10084;</span>
+      </div>
+      <div class="info">
+        <h3>Carrot</h3>
+        <div class="details">
+          <span><i class="fa-thin fa-star"></i> 4.7</span><span class="divider">|</span><span>3 km</span>
+        </div>
+        <p class="price">$1.80 / kg</p>
+      </div>
+    </div>
+
+
+
+
+    <div class="card">
+      <div class="img-container">
+        <img src="tomato.jpg" alt="Carrot">
+        <span class="heart" onclick="toggleFavorite(this)">&#10084;</span>
+      </div>
+      <div class="info">
+        <h3>Carrot</h3>
+        <div class="details">
+          <span><i class="fa-thin fa-star"></i> 4.7</span><span class="divider">|</span><span>3 km</span>
+        </div>
+        <p class="price">$1.80 / kg</p>
+      </div>
+    </div>
+  
+
+</div>
+<div class="sale">
+
+<div class="sale-text">
+
+            <h4>SUMMER SALE</h4>
+            <h1><span style="color: yellow;">35%</span>  OFF</h1>
+            <p>Lorem ipsum, dolor sit amet consectetu? <br>
+                Lorem ipsum, dolor sit amet consectetu?
+            </p>
+            <button style="color: white; ">Shop Now</button>
+
+        </div>
+     
+
+
+
+
+        <div class="sale-img">
+          <img src="green.grocesry.jpg" alt="grren">
+        </div>
+        
+    </div>
+
+
+
+    <div class="faq">
+        <div class="faq-img">
+            <img src="women.png" alt="">
+
+        </div>
+        <div class="faq-text">
+            <h5>FAQ</h5>
+            <h1>Find the <span>answer</span> to <br>
+            your confusion</h1>
+            <div class="faq-input">
+      <input type="text" placeholder="Type your question here...">
+      <button>Submit</button>
+    </div>
+
+
+        </div>
+    </div>
+    
+
+   
+   <script src="index.js"></script>
+   
+</body>
+</html>
